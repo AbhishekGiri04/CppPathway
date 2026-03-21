@@ -151,6 +151,7 @@
 CppPathway/
 ├── assets/
 │   └── C++.png
+├── .gitignore
 ├── LICENSE
 └── README.md
 ```
