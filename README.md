@@ -23,16 +23,21 @@
 
 **What makes C++ different from C?**
 
+<div align="center">
+
 | Feature | C | C++ |
-|---|---|---|
-| Paradigm | Procedural | Multi-paradigm (OOP + Procedural + Generic) |
-| Classes & Objects | ❌ | ✅ |
-| STL | ❌ | ✅ |
-| Function Overloading | ❌ | ✅ |
-| References | ❌ | ✅ |
-| Exception Handling | ❌ | ✅ |
-| Templates | ❌ | ✅ |
-| Smart Pointers | ❌ | ✅ |
+|:---|:---:|:---:|
+| Paradigm | Procedural only | Multi-paradigm (OOP + Procedural + Generic) |
+| Classes & Objects | ✗ | ✔ |
+| Standard Template Library | ✗ | ✔ |
+| Function Overloading | ✗ | ✔ |
+| References | ✗ | ✔ |
+| Exception Handling | ✗ | ✔ |
+| Templates & Generics | ✗ | ✔ |
+| Smart Pointers | ✗ | ✔ |
+| RAII & Destructors | ✗ | ✔ |
+
+</div>
 
 **Why C++ is powerful:**
 - Full control over memory — manual and smart pointer management
@@ -45,7 +50,7 @@
 - 🎮 **Game Engines** — Unreal Engine, Unity (core), id Tech
 - 🖥️ **Operating Systems** — Windows, macOS internals, embedded OS
 - ⚡ **High-Frequency Trading** — latency-critical financial systems
-- 🤖 **Robotics & AI** — TensorFlow core, ROS, OpenCV
+- 🧠 **Robotics & AI** — TensorFlow core, ROS, OpenCV
 - 🏆 **Competitive Programming** — the dominant language on Codeforces, ICPC
 
 ---
@@ -146,22 +151,13 @@
 CppPathway/
 ├── assets/
 │   └── C++.png
-├── src/
-│   ├── basics/
-│   ├── control-flow/
-│   ├── functions/
-│   ├── arrays-strings/
-│   ├── pointers/
-│   ├── oop/
-│   ├── stl/
-│   ├── file-handling/
-│   ├── advanced/
-│   └── dsa/
 ├── LICENSE
 └── README.md
 ```
 
-> 📁 Source folders will be added progressively as each module is completed — following the roadmap above.
+> 📁 `src/` will be added progressively — `basics/` → `control-flow/` → `functions/` → `arrays-strings/` → `pointers/` → `oop/` → `stl/` → `file-handling/` → `advanced/` → `dsa/`
+
+
 
 ---
 
@@ -327,37 +323,30 @@ int main() {
   <tr>
     <td align="center" width="33%">
       <h3>⚡ Fast I/O</h3>
-
-```cpp
-ios_base::sync_with_stdio(false);
-cin.tie(NULL);
-```
-
-Essential for time-critical problems. Disables C/C++ stream sync for 10x faster input.
+      <pre><code>ios_base::sync_with_stdio(false);
+cin.tie(NULL);</code></pre>
+      Disables C/C++ stream sync — cuts input time by up to 10x. Add to every competitive solution.
     </td>
     <td align="center" width="33%">
       <h3>🧠 STL Tricks</h3>
-
-```cpp
-// Frequency map in one line
-map<int,int> freq;
+      <pre><code>// Frequency map
 for(auto x : arr) freq[x]++;
 
-// Sort by second element
+// Custom sort
 sort(v.begin(), v.end(),
-  [](auto& a, auto& b){
-    return a.second < b.second;
-  });
-```
+  [](auto&amp; a, auto&amp; b){
+    return a.second &lt; b.second;
+  });</code></pre>
     </td>
     <td align="center" width="33%">
       <h3>🎯 Problem-Solving Mindset</h3>
-
-- Read → Identify pattern
-- Brute force first
-- Optimize with STL / DP
-- Handle edge cases
-- Test with boundary inputs
+      <br/>
+      <img src="https://img.shields.io/badge/1-Read%20%26%20Identify-6366f1?style=flat-square"/><br/>
+      <img src="https://img.shields.io/badge/2-Brute%20Force%20First-00599C?style=flat-square"/><br/>
+      <img src="https://img.shields.io/badge/3-Optimize%20with%20STL%2FDP-10b981?style=flat-square"/><br/>
+      <img src="https://img.shields.io/badge/4-Handle%20Edge%20Cases-f59e0b?style=flat-square"/><br/>
+      <img src="https://img.shields.io/badge/5-Test%20Boundary%20Inputs-ef4444?style=flat-square"/>
+      <br/>
     </td>
   </tr>
 </table>
@@ -620,6 +609,7 @@ Contributions are welcome! If you want to add examples, fix bugs, or improve exp
 ## 📄 License
 
 This project is licensed under the **MIT License** — free to use, share, and modify.
+
 See the [LICENSE](LICENSE) file for full details.
 
 </div>
