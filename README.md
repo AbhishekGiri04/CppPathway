@@ -21,6 +21,11 @@
 
 **C++** is a general-purpose, high-performance programming language created by **Bjarne Stroustrup** in 1979 as an extension of C. It combines the raw power of C with object-oriented, generic, and functional programming paradigms — making it one of the most versatile and widely used languages in the world.
 
+**🆕 What's New in 2026?**
+- C++26 standard brings enhanced modules, reflection capabilities, and improved coroutines
+- Modern C++ emphasizes safety with better smart pointer usage and RAII patterns
+- Industry adoption of C++23 features like `std::expected`, ranges improvements, and `std::print`
+
 **What makes C++ different from C?**
 
 <div align="center">
@@ -47,11 +52,13 @@
 - Runs on everything — from microcontrollers to supercomputers
 
 **Real-world use:**
-- 🎮 **Game Engines** — Unreal Engine, Unity (core), id Tech
-- 🖥️ **Operating Systems** — Windows, macOS internals, embedded OS
-- ⚡ **High-Frequency Trading** — latency-critical financial systems
-- 🧠 **Robotics & AI** — TensorFlow core, ROS, OpenCV
-- 🏆 **Competitive Programming** — the dominant language on Codeforces, ICPC
+- 🎮 **Game Engines** — Unreal Engine, Unity (core), id Tech, Godot
+- 🖥️ **Operating Systems** — Windows, macOS internals, Linux kernel drivers
+- ⚡ **High-Frequency Trading** — latency-critical financial systems, cryptocurrency exchanges
+- 🧠 **Robotics & AI** — TensorFlow core, ROS, OpenCV, autonomous vehicles
+- 🏆 **Competitive Programming** — the dominant language on Codeforces, ICPC, LeetCode
+- 🌐 **Web Backends** — High-performance APIs, microservices, WebAssembly
+- 🔐 **Blockchain** — Bitcoin core, Ethereum clients, DeFi protocols
 
 ---
 
@@ -132,11 +139,16 @@
   </tr>
   <tr>
     <td align="center"><img src="https://img.shields.io/badge/09-Advanced%20C++-ef4444?style=flat-square"/></td>
-    <td><b>Templates, smart pointers (unique_ptr, shared_ptr), move semantics, lambdas, C++17 features</b></td>
+    <td><b>Templates, smart pointers (unique_ptr, shared_ptr), move semantics, lambdas, C++20/23 features</b></td>
     <td align="center">🔴 Advanced</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://img.shields.io/badge/10-DSA%20%26%20Problem%20Solving-ef4444?style=flat-square"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/10-Concurrency%20%26%20Multithreading-ef4444?style=flat-square"/></td>
+    <td><b>std::thread, async, futures, mutexes, atomic operations, parallel algorithms</b></td>
+    <td align="center">🔴 Modern C++</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://img.shields.io/badge/11-DSA%20%26%20Problem%20Solving-ef4444?style=flat-square"/></td>
     <td><b>Linked List, Stack, Queue, Trees, Graphs, Sorting, Searching, DP</b></td>
     <td align="center">🔴 Mastery</td>
   </tr>
@@ -153,12 +165,78 @@ CppPathway/
 │   └── C++.png
 ├── .gitignore
 ├── LICENSE
+├── main.cpp              # Basic Hello World example
 └── README.md
 ```
 
-> 📁 `src/` will be added progressively — `basics/` → `control-flow/` → `functions/` → `arrays-strings/` → `pointers/` → `oop/` → `stl/` → `file-handling/` → `advanced/` → `dsa/`
+> 📁 `src/` folders will be added progressively as we build out the curriculum:
+> 
+> **Phase 1:** `basics/` → `control-flow/` → `functions/` → `arrays-strings/`
+> 
+> **Phase 2:** `pointers/` → `oop/` → `stl/` → `file-handling/`
+> 
+> **Phase 3:** `advanced/` → `dsa/` → `projects/` → `interview-prep/`
+
+## 🛠️ Quick Start
+
+**Clone & Run:**
+```bash
+# Clone this repository
+git clone https://github.com/abhishekgiri04/CppPathway.git
+cd CppPathway
+
+# Compile and run the hello world example
+g++ -std=c++17 -Wall main.cpp -o hello
+./hello
+
+# Expected output: Hello World
+```
 
 
+
+---
+
+## 🚀 Current Status & Roadmap
+
+**📅 Last Updated:** September 2, 2026
+
+<div align="center">
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <h3>✅ Completed</h3>
+      <img src="https://img.shields.io/badge/Repository%20Setup-100%25-10b981?style=for-the-badge"/><br/>
+      <img src="https://img.shields.io/badge/Documentation-100%25-10b981?style=for-the-badge"/><br/>
+      <img src="https://img.shields.io/badge/Hello%20World-100%25-10b981?style=for-the-badge"/>
+    </td>
+    <td align="center" width="25%">
+      <h3>🔄 In Progress</h3>
+      <img src="https://img.shields.io/badge/Basic%20Examples-80%25-f59e0b?style=for-the-badge"/><br/>
+      <img src="https://img.shields.io/badge/Code%20Structure-60%25-f59e0b?style=for-the-badge"/><br/>
+      <img src="https://img.shields.io/badge/CI%2FCD%20Setup-40%25-f59e0b?style=for-the-badge"/>
+    </td>
+    <td align="center" width="25%">
+      <h3>📋 Planned</h3>
+      <img src="https://img.shields.io/badge/OOP%20Examples-0%25-6c757d?style=for-the-badge"/><br/>
+      <img src="https://img.shields.io/badge/STL%20Tutorials-0%25-6c757d?style=for-the-badge"/><br/>
+      <img src="https://img.shields.io/badge/DSA%20Problems-0%25-6c757d?style=for-the-badge"/>
+    </td>
+    <td align="center" width="25%">
+      <h3>💡 Future</h3>
+      <img src="https://img.shields.io/badge/Interactive%20Tutorials-0%25-6c757d?style=for-the-badge"/><br/>
+      <img src="https://img.shields.io/badge/Video%20Content-0%25-6c757d?style=for-the-badge"/><br/>
+      <img src="https://img.shields.io/badge/Online%20Compiler-0%25-6c757d?style=for-the-badge"/>
+    </td>
+  </tr>
+</table>
+</div>
+
+**🎯 Immediate Next Steps:**
+1. **📁 Create `src/basics/` folder** with fundamental C++ programs
+2. **📝 Add comprehensive code examples** for each topic
+3. **🧪 Set up automated testing** for all code examples  
+4. **📚 Create detailed tutorials** with step-by-step explanations
+5. **🏗️ Build project templates** for common C++ patterns
 
 ---
 
@@ -204,7 +282,9 @@ CppPathway/
 - ⚡ **Lambda Expressions** — anonymous functions, captures
 - ⚡ **Exception Handling** — `try`, `catch`, `throw`
 - ⚡ **Namespaces** — scope management
-- ⚡ **C++17 Features** — structured bindings, `if constexpr`, `std::optional`
+- ⚡ **C++17/20/23 Features** — structured bindings, concepts, ranges, coroutines
+- ⚡ **Concurrency** — threads, async, futures, atomic operations
+- ⚡ **Modern Safety** — `std::optional`, `std::variant`, `std::expected` (C++23)
 
     </td>
   </tr>
@@ -524,7 +604,8 @@ g++ -std=c++17 hello.cpp -o hello
 - [ ] Function & class templates
 - [ ] Exception handling
 - [ ] Move semantics & `std::move`
-- [ ] C++17 features
+- [ ] Concurrency & multithreading
+- [ ] C++20/23 features (concepts, ranges, coroutines)
 
 **🔴 DSA & Problem Solving**
 - [ ] Linked List (singly & doubly)
@@ -533,6 +614,14 @@ g++ -std=c++17 hello.cpp -o hello
 - [ ] Sorting algorithms
 - [ ] Dynamic Programming basics
 - [ ] Graph traversal (BFS/DFS)
+
+**🏗️ Projects & Practice**
+- [ ] Simple calculator
+- [ ] File management system
+- [ ] Basic game (Tic-tac-toe)
+- [ ] Data structure implementations
+- [ ] Algorithm visualizations
+- [ ] Mini compiler/interpreter
 
     </td>
   </tr>
@@ -579,6 +668,27 @@ Contributions are welcome! If you want to add examples, fix bugs, or improve exp
 
 ---
 
+## 📝 Changelog
+
+### 🆕 September 2, 2026
+- **Updated README.md** with modern C++ features and 2026 context
+- **Enhanced roadmap** with C++20/23 features and concurrency
+- **Added current status section** showing project progress
+- **Expanded real-world use cases** including blockchain and WebAssembly
+- **Improved folder structure** with clearer progression phases
+- **Added quick start guide** for immediate setup
+- **Updated contribution guidelines** with modern C++ standards
+
+### 📋 Previous Updates
+- **Initial repository setup** with comprehensive C++ learning path
+- **Created detailed roadmap** covering beginner to advanced topics  
+- **Designed visual progress tracker** for structured learning
+- **Added OOP deep dive** with practical examples
+- **Included STL power section** for competitive programming
+- **Set up project structure** for modular content delivery
+
+---
+
 ## 📞 Contact & Support
 
 <div align="center">
@@ -622,6 +732,12 @@ See the [LICENSE](LICENSE) file for full details.
 **🔥 Built for learners who want to understand C++, not just write it.**
 
 *From your first `cout` to templates, smart pointers, and competitive programming — this is your complete C++ journey.*
+
+<br/>
+
+**⭐ If this repository helps you learn C++, please give it a star!**
+
+**👁️ Watch this repo to get notified of new content and updates.**
 
 <br/>
 
