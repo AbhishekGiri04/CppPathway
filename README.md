@@ -202,7 +202,7 @@ g++ -std=c++17 -Wall main.cpp -o hello
 
 ## 🚀 Current Status & Roadmap
 
-**📅 Last Updated:** September 2, 2026
+**📅 Last Updated:** July 2025
 
 <div align="center">
 <table>
@@ -211,13 +211,13 @@ g++ -std=c++17 -Wall main.cpp -o hello
       <h3>✅ Completed</h3>
       <img src="https://img.shields.io/badge/Repository%20Setup-100%25-10b981?style=for-the-badge"/><br/>
       <img src="https://img.shields.io/badge/Documentation-100%25-10b981?style=for-the-badge"/><br/>
-      <img src="https://img.shields.io/badge/Hello%20World-100%25-10b981?style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/Basic%20Examples-100%25-10b981?style=for-the-badge"/>
     </td>
     <td align="center" width="25%">
       <h3>🔄 In Progress</h3>
-      <img src="https://img.shields.io/badge/Basic%20Examples-80%25-f59e0b?style=for-the-badge"/><br/>
-      <img src="https://img.shields.io/badge/Code%20Structure-60%25-f59e0b?style=for-the-badge"/><br/>
-      <img src="https://img.shields.io/badge/CI%2FCD%20Setup-40%25-f59e0b?style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/Control%20Flow-40%25-f59e0b?style=for-the-badge"/><br/>
+      <img src="https://img.shields.io/badge/Functions-0%25-f59e0b?style=for-the-badge"/><br/>
+      <img src="https://img.shields.io/badge/Arrays%20%26%20Strings-0%25-f59e0b?style=for-the-badge"/>
     </td>
     <td align="center" width="25%">
       <h3>📋 Planned</h3>
@@ -236,11 +236,11 @@ g++ -std=c++17 -Wall main.cpp -o hello
 </div>
 
 **🎯 Immediate Next Steps:**
-1. **📁 Create `src/basics/` folder** with fundamental C++ programs
-2. **📝 Add comprehensive code examples** for each topic
-3. **🧪 Set up automated testing** for all code examples  
-4. **📚 Create detailed tutorials** with step-by-step explanations
-5. **🏗️ Build project templates** for common C++ patterns
+1. **📝 Add `06_loops.cpp`** — for, while, do-while, range-based for
+2. **📝 Add `07_functions.cpp`** — declaration, overloading, recursion
+3. **📝 Add `08_arrays.cpp`** — 1D/2D arrays and std::string
+4. **🧪 Set up automated testing** for all code examples
+5. **🏗️ Build OOP examples** — classes, inheritance, polymorphism
 
 ---
 
@@ -674,10 +674,12 @@ Contributions are welcome! If you want to add examples, fix bugs, or improve exp
 
 ## 📝 Changelog
 
-### 🆕 Latest Update
-- **Added beginner examples** — `01_main.cpp`, `02_variables.cpp`, `03_datatypes.cpp`, `04_inputs.cpp`, `05_if_else.cpp`
+### 🆕 Latest Update — July 2025
+- **Added 5 beginner examples** — `01_main.cpp`, `02_variables.cpp`, `03_datatypes.cpp`, `04_inputs.cpp`, `05_if_else.cpp`
 - **Updated folder structure** to reflect actual files in the repo
-- **Marked completed topics** in the progress tracker
+- **Updated progress tracker** — marked completed topics
+- **Updated current status** — Basic Examples 100% done, Control Flow in progress
+- **Cleaned up next steps** to reflect actual upcoming files
 
 ### 📋 September 2, 2026
 - **Updated README.md** with modern C++ features and 2026 context
