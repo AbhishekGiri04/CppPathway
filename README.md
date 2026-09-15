@@ -165,17 +165,21 @@ CppPathway/
 │   └── C++.png
 ├── .gitignore
 ├── LICENSE
-├── main.cpp              # Basic Hello World example
+├── 01_main.cpp           # Hello World
+├── 02_variables.cpp      # Variables & Data Types
+├── 03_datatypes.cpp      # Data Types deep dive
+├── 04_inputs.cpp         # cin / cout / user input
+├── 05_if_else.cpp        # if / else / control flow
 └── README.md
 ```
 
-> 📁 `src/` folders will be added progressively as we build out the curriculum:
+> 📁 More files will be added progressively as we build out the curriculum:
 > 
-> **Phase 1:** `basics/` → `control-flow/` → `functions/` → `arrays-strings/`
+> **Phase 1:** Basics → Control Flow → Functions → Arrays & Strings
 > 
-> **Phase 2:** `pointers/` → `oop/` → `stl/` → `file-handling/`
+> **Phase 2:** Pointers → OOP → STL → File Handling
 > 
-> **Phase 3:** `advanced/` → `dsa/` → `projects/` → `interview-prep/`
+> **Phase 3:** Advanced C++ → DSA → Projects → Interview Prep
 
 ## 🛠️ Quick Start
 
@@ -534,13 +538,13 @@ g++ -std=c++17 hello.cpp -o hello
     <td valign="top" width="50%">
 
 **📦 Basics**
-- [ ] Hello World & `cin` / `cout`
-- [ ] Variables & Data Types
+- [x] Hello World & `cin` / `cout`
+- [x] Variables & Data Types
 - [ ] Operators & Expressions
 - [ ] Type Casting & `auto`
 
 **🔀 Control Flow**
-- [ ] `if` / `else if` / `else`
+- [x] `if` / `else if` / `else`
 - [ ] `switch` / `case`
 - [ ] Ternary Operator
 
@@ -670,7 +674,12 @@ Contributions are welcome! If you want to add examples, fix bugs, or improve exp
 
 ## 📝 Changelog
 
-### 🆕 September 2, 2026
+### 🆕 Latest Update
+- **Added beginner examples** — `01_main.cpp`, `02_variables.cpp`, `03_datatypes.cpp`, `04_inputs.cpp`, `05_if_else.cpp`
+- **Updated folder structure** to reflect actual files in the repo
+- **Marked completed topics** in the progress tracker
+
+### 📋 September 2, 2026
 - **Updated README.md** with modern C++ features and 2026 context
 - **Enhanced roadmap** with C++20/23 features and concurrency
 - **Added current status section** showing project progress
