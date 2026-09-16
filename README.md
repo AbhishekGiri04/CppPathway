@@ -46,6 +46,14 @@ Every file follows a simple pattern:
 | 03 | [`03_datatypes.cpp`](03_datatypes.cpp) | Data Types | `int`, `float`, `double`, `char`, `string`, `bool`, `sizeof` |
 | 04 | [`04_inputs.cpp`](04_inputs.cpp) | User Input | `cin`, `cout`, runtime input handling |
 | 05 | [`05_if_else.cpp`](05_if_else.cpp) | Control Flow | `if`, `else`, conditional logic |
+| 06 | [`06_switch.cpp`](06_switch.cpp) | Switch Case | `switch`, `case`, `break`, `default` |
+| 07 | [`07_ternary.cpp`](07_ternary.cpp) | Ternary Operator | `? :` shorthand conditional |
+| 08 | [`08_for_loop.cpp`](08_for_loop.cpp) | For Loop | `for`, loop counter, iteration |
+| 09 | [`09_while_loop.cpp`](09_while_loop.cpp) | While Loop | `while`, condition-based iteration |
+| 10 | [`10_do_while_loop.cpp`](10_do_while_loop.cpp) | Do-While Loop | `do-while`, guaranteed first execution |
+| 11 | [`11_nested_loop.cpp`](11_nested_loop.cpp) | Nested Loops | nested `for`, multi-dimensional iteration |
+| 12 | [`12_unary_operator.cpp`](12_unary_operator.cpp) | Unary Operators | pre/post increment & decrement (`++`, `--`) |
+| 13 | [`13_binary_operator.cpp`](13_binary_operator.cpp) | Binary Operators | arithmetic, relational, logical, assignment, bitwise |
 
 </div>
 
@@ -102,7 +110,8 @@ g++ --version           # verify
 | Phase | Topics | Status |
 |:-----:|--------|:------:|
 | 🟢 **Phase 1 — Basics** | Hello World, Variables, Data Types, I/O, Control Flow | ✅ Done |
-| 🟡 **Phase 2 — Core** | Loops, Functions, Arrays, Strings | 🔜 Up Next |
+| 🟡 **Phase 2 — Core** | Switch, Ternary, Loops, Operators | ✅ Done |
+| 🟠 **Phase 3 — Core** | Functions, Arrays, Strings | 🔜 Up Next |
 | 🔴 **Phase 3 — Memory** | Pointers, References, Dynamic Allocation | ⬜ Planned |
 | 🔵 **Phase 4 — OOP** | Classes, Inheritance, Polymorphism, Abstraction | ⬜ Planned |
 | 🟣 **Phase 5 — STL** | vector, map, set, stack, queue, algorithms | ⬜ Planned |
